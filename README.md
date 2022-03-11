@@ -30,14 +30,13 @@ nama12345
 ````
 # Perintah Menjalankan SC
 ````php
-$ pkg update && pkg upgrade
-$ pkg install python git
-$ pip install requests bs4 futures
+$ pkg update && pkg upgrade -y
+$ pkg install python 
+$ pkg install git
 $ pip install cython
 $ rm -rf roycrack
-$ termux-setup-storage
 $ git clone https://github.com/ROY-ID/roycrack
-$ cd roy-brute
+$ cd $HOME/roycrack
 $ git pull
 $ python roycrack.py
 ````
